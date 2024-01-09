@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(./fonts/Poppins-Regular.ttf) format('opentype');
+}
+
+body {
+  background: palegoldenrod;
+}
+
+.container {
+  font-family: 'Poppins';
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 30px;
+  border-bottom-right-radius: 50px;
+  width: 650px;
+}
+
+.inputs {
+  display: flex;
+  gap: 20px;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inner {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner label {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.inner input {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.middle {
+  position: relative;
+  height: 20px;
+}
+
+
+.svg-wrapper {
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  left: 90%;  
+  top: 0%;
+  cursor: pointer;
+}
+
+svg {
+  width: 35px;
+  height: 35px;
+}
+
+.inner-calc {
+  display: flex;
+  gap: 6px;
+}
+
+.number { 
+  color: rgb(186, 107, 186);
+  font-size: 70px;
+  font-weight: 900;
+}
+.text {
+  font-weight: 900;
+  color: black;
+  font-size: 70px;
+}
